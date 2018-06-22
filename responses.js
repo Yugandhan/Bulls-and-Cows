@@ -1,5 +1,3 @@
-const { Suggestions } = require('actions-on-google');
-
 exports.counts = {
   "bulls" : ["bulls", "bull"],
   "cows" : ["cows", "cow"],
@@ -18,7 +16,6 @@ exports.myResponse = [
   "You are very close.",
   "Please give me the correct number. Number should be five digit.",
   "\nCongratulations.! You found the number. Do you want to play again?",
-  "Okay, Thanks for your time with this game.",
   "Please give me the right digits. Five digits should be unique.",
 ];
 

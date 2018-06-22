@@ -1,0 +1,6 @@
+./etc
+./node_modules
+./tmp
+.eslintrx.json
+copy.js
+fastsAboutGoogle.js

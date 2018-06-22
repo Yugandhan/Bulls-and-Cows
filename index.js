@@ -178,7 +178,7 @@ app.intent('Start game - Need clue', (conv) => {
 });
 
 app.intent('Start game - feedback', (conv) => {
-    conv.close('You can reach me at yugandhanboss@gmail.com');
+    conv.close('You can reach me at *******@gmail.com');
 });
 
 exports.dialogflowPNRStatus = functions.https.onRequest(app);
