@@ -42,7 +42,7 @@ exports.fClueAnsStop = (conv, response, CS, check, array) => {
   } else {
     var rtnString = '';
     array.forEach((item) => {
-      rtnString += item + ' ';
+      rtnString += ' ' + item;
     });
     speech = response.clueAndStop[CS].second;
     text = speech + rtnString + '.';

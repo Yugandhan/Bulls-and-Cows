@@ -5,7 +5,7 @@ exports.counts = {
 
 exports.mySuggesstions = [
   ["Stop game"],
-  ["Need clue?", "Stop game"],
+  ["Need clue", "Stop game"],
   ["Yes", "No"],
 ];
 
@@ -27,6 +27,6 @@ exports.clueAndStop = [
   {
     "first": "Okay, Thanks for your time with this game.",
     "second": "You haven't found the solution yet. " +
-      "Anyways, My guessing number is ",
+      "Anyways, My guessing number is",
   }
 ];
