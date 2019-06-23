@@ -1,6 +1,9 @@
 ./etc
-./node_modules
+node_modules
 ./tmp
 .eslintrx.json
+functions
+.firebaserc
+firebase.json
 copy.js
 fastsAboutGoogle.js
